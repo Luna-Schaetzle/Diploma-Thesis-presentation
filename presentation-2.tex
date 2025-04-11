@@ -1,0 +1,182 @@
+\documentclass{beamer}
+\usetheme{CambridgeUS}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+% Logo top-right
+\logo{\includegraphics[height=0.8cm]{HTL-logo.jpeg}} % Replace with correct path to HTL Anichstraße logo
+
+% Title and author info
+\title[AI Integration in Education and Dev]{Integration of Artificial Intelligence in Education and Software Development}
+\author[Luna Sch\"atzle, Florian Prandstetter]{Luna Sch\"atzle \\ Florian Prandstetter}
+\institute[HTL Anichstra\ss e]{HTL Anichstra\ss e, Department of Business Informatics}
+\date{Diploma Thesis Defense -- April 2025}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% Slide: Introduction
+\begin{frame}{Introduction}
+    \begin{itemize}
+      \item \textbf{Presenter:} Luna Schätzle – Project Lead (AI evaluation, backend \& website)
+      \item \textbf{Objective:} Open-source AI platform for education
+      \item \textbf{Focus:} Evaluate various AI models for multiple use cases
+      \item \textbf{Platform:} Enable students to access and experiment with AI
+      \item \textbf{Motivation:} Overcome high resource requirements of current Open Source AI models
+    \end{itemize}
+  \end{frame}
+  
+
+% Slide: Project Team and Organization
+\begin{frame}{Project Team and Management}
+  \begin{itemize}
+    \item Team members: Luna Schätzle, Florian Prandstetter
+    \item Project management: We had serveral meeting to discuss the project and to plan the next steps.
+    \item Tools used: 
+      \begin{itemize}
+        \item GitHub for version control
+        \item Discord for communication
+        \item Google sheeds for Time tracking
+        \item LaTeX for documentation
+      \end{itemize}
+  \end{itemize}
+\end{frame}
+
+% Slide: Theoretical Background
+\begin{frame}{Theoretical Background}
+  \begin{itemize}
+    \item Technologies used: Python, Flask, Vue.js
+    \item Use of Large Language Models (LLMs)
+    \item Interfacing methods: API, local models (Ollama), OpenAI
+    \item Testing and evaluation of the open source models
+\end{itemize}
+\end{frame}
+
+% Slide: Testing and Evaluation
+\begin{frame}{Testing and Evaluation}
+  \begin{itemize}
+    \item Evaluation of models: Llama3.2, Deepseek-r1, gemma2, qwen, ...
+    \item Testing methods: Different prompts and tasks where asked the models (automated via Python script)
+    \item Evaluation criteria: 
+      \begin{itemize}
+        \item response time
+        \item accuracy
+        \item resource usage
+        \item BLEU score
+        \item readability
+        \item Textquality
+      \end{itemize}
+  \end{itemize}
+\end{frame}
+
+%Maby extra slide with the results
+\begin{frame}{Evaluation Results: Quantitative metrics}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{combined_metrics.png}
+    \caption{Evaluation Results of AI Models}
+    \label{fig:evaluation-results}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Evaluation Results: Qualitative metrics}
+  \begin{columns}[t]
+    \column{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.9\columnwidth]{model_cpu_usage_comparison.png}
+        \caption{CPU Usage Comparison}
+        \label{fig:cpu-usage}
+      \end{figure}
+    \column{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.9\columnwidth]{model_memory_usage_comparison.png}
+        \caption{Memory Usage Comparison}
+        \label{fig:memory-usage}
+      \end{figure}
+  \end{columns}
+\end{frame}
+
+% Slide: Backend Architecture
+%\begin{frame}{Backend Architecture}
+%  \begin{itemize}
+%    \item Design based on model integration needs
+%    \item Functionality of the backend (AI Hub, Code Bot)
+%    \item Structure: Flask-based API, endpoints for services
+%    \item Reference to server setup by Florian
+%  \end{itemize}
+%\end{frame}
+
+% Slide: Website and Frontend
+\begin{frame}{Website Platform}
+  \begin{itemize}
+    \item To realise the vision of the project, we created a website platform. 
+    \item The website was realised thru the use of Vue.js and Flask (Backend API) and Firebase (Database).
+    \item The website has the following features (as of the presentation date):
+    \begin{itemize}
+      \item User registration, login and profile management
+      \item Chatbot interface a various AI models (thrue API general local models, Programming Assistant, Chat with chat GPT, image regocnition via LLaVA and Llama3.2-vision)
+      \item Image generation with DallE
+      \item OCR (Optical Character Recognition) with Tesseract and enhanced via LLama3.2
+    \end{itemize}
+    \end{itemize}
+\end{frame}
+
+% Slide: AI in Economics
+\begin{frame}{AI in Economics and Ethics}
+  \begin{itemize}
+    \item Applications
+    \begin{itemize}
+      \item Customer service
+      \item Supply chain management
+      \item Predictive analytics
+      \item Data analysis
+      \item Automation
+    \end{itemize}
+    \item Training data and ethical consernes
+    \begin{itemize}
+      \item Bias in training data
+      \item Transparency and accountability
+      \item Privacy and data protection
+      \item Job displacement
+    \end{itemize}
+    \item Regulatory challanges
+    \begin{itemize}
+      \item lack of clear regulations
+      \item Global nature of AI 
+      \item EU AI Act
+      \item Need for international cooperation
+      \item Data security and privacy
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+% Slide: Open Source
+\begin{frame}{Open Source Contribution}
+  \begin{itemize}
+    \item Definition and philosophy of open source
+    \item Our project's open-source components
+    \item Economic and societal advantages
+  \end{itemize}
+\end{frame}
+
+% Slide: Conclusion
+\begin{frame}{Conclusion}
+  \begin{itemize}
+    \item Summary of achievements
+    \item Insights gained during the development
+    \item Future potential of the system
+    \item Final thoughts and acknowledgments
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Florian}
+  
+\end{frame}
+
+\end{document}
