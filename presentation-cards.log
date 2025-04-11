@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.27)  11 APR 2025 10:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.27)  11 APR 2025 11:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**presentation-2.tex
-(./presentation-2.tex
+**presentation-cards.tex
+(./presentation-cards.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -777,8 +777,8 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count345
 \l__pdf_internal_box=\box81
 )
-No file presentation-2.aux.
-\openout1 = `presentation-2.aux'.
+(./presentation-cards.aux)
+\openout1 = `presentation-cards.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
@@ -798,6 +798,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -855,8 +856,10 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring OFF on input line 16.
+
+(./presentation-cards.out) (./presentation-cards.out)
 \@outlinefile=\write5
-\openout5 = `presentation-2.out'.
+\openout5 = `presentation-cards.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 16.
@@ -934,9 +937,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-)
-No file presentation-2.nav.
-
+) (./presentation-cards.nav)
 Overfull \hbox (26.64893pt too wide) in paragraph at lines 16--16
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1027,7 +1028,7 @@ Overfull \hbox (26.64893pt too wide) in paragraph at lines 84--84
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-<combined_metrics.png, id=173, 1291.4649pt x 1000.9395pt>
+<combined_metrics.png, id=175, 1291.4649pt x 1000.9395pt>
 File: combined_metrics.png Graphic file (type png)
 <use combined_metrics.png>
 Package pdftex.def Info: combined_metrics.png  used on input line 84.
@@ -1052,13 +1053,13 @@ Overfull \hbox (26.64893pt too wide) in paragraph at lines 103--103
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-<model_cpu_usage_comparison.png, id=204, 715.473pt x 297.2706pt>
+<model_cpu_usage_comparison.png, id=206, 715.473pt x 297.2706pt>
 File: model_cpu_usage_comparison.png Graphic file (type png)
 <use model_cpu_usage_comparison.png>
 Package pdftex.def Info: model_cpu_usage_comparison.png  used on input line 103
 .
 (pdftex.def)             Requested size: 154.03183pt x 63.99811pt.
-<model_memory_usage_comparison.png, id=205, 714.9912pt x 397.0032pt>
+<model_memory_usage_comparison.png, id=207, 714.9912pt x 397.0032pt>
 File: model_memory_usage_comparison.png Graphic file (type png)
 <use model_memory_usage_comparison.png>
 Package pdftex.def Info: model_memory_usage_comparison.png  used on input line 
@@ -1092,13 +1093,25 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 [8
 
 ]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 157--157
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 156--156
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
+! Misplaced alignment tab character &.
+\beamer@doifinframe ...e} \item Customer service &
+                                                   support \item Supply chai...
+l.156 \end{frame}
+                 
+? 
+! Misplaced alignment tab character &.
+<argument> Ethical &
+                     Social Concerns:
+l.156 \end{frame}
+                 
+? 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 157.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 156.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
@@ -1108,13 +1121,13 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 [9
 
 ]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 166--166
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 174--174
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 166.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 174.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
@@ -1124,13 +1137,13 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 [10
 
 ]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 176--176
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 185--185
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 176.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 185.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
@@ -1140,13 +1153,13 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 [11
 
 ]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 180--180
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 189--189
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 180.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 189.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
@@ -1157,45 +1170,35 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 
 ]
 \tf@nav=\write6
-\openout6 = `presentation-2.nav'.
+\openout6 = `presentation-cards.nav'.
 
 \tf@toc=\write7
-\openout7 = `presentation-2.toc'.
+\openout7 = `presentation-cards.toc'.
 
 \tf@snm=\write8
-\openout8 = `presentation-2.snm'.
+\openout8 = `presentation-cards.snm'.
 
- (./presentation-2.aux)
+ (./presentation-cards.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `presentation-2.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `presentation-2.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `presentation-cards.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24622 strings out of 474222
- 490294 string characters out of 5748733
- 1940975 words of memory out of 5000000
- 46389 multiletter control sequences out of 15000+600000
+ 24663 strings out of 474222
+ 490866 string characters out of 5748733
+ 1939975 words of memory out of 5000000
+ 46422 multiletter control sequences out of 15000+600000
  560480 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,16n,123p,411b,634s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,16n,123p,415b,634s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on presentation-2.pdf (12 pages, 1161850 bytes).
+Output written on presentation-cards.pdf (12 pages, 1165747 bytes).
 PDF statistics:
  400 PDF objects out of 1000 (max. 8388607)
  340 compressed objects within 4 object streams
