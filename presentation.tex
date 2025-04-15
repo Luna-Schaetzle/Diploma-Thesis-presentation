@@ -112,20 +112,70 @@
 %  \end{itemize}
 %\end{frame}
 
-% Slide: Website and Frontend
 \begin{frame}{Website Platform}
   \begin{itemize}
-    \item To realise the vision of the project, we created a website platform. 
-    \item The website was realised thru the use of Vue.js and Flask (Backend API) and Firebase (Database).
-    \item The website has the following features (as of the presentation date):
+    \item Developed to make AI accessible to students.
+    \item Built with:
     \begin{itemize}
-      \item User registration, login and profile management
-      \item Chatbot interface a various AI models (thrue API general local models, Programming Assistant, Chat with chat GPT, image regocnition via LLaVA and Llama3.2-vision)
-      \item Image generation with DallE
-      \item OCR (Optical Character Recognition) with Tesseract and enhanced via LLama3.2
+      \item Vue.js (Frontend)
+      \item Flask (Backend API)
+      \item Firebase (User data \& authentication)
     \end{itemize}
-    \end{itemize}
+    \item Purpose: Central interface for interacting with various AI tools.
+  \end{itemize}
+  \vspace{0.5cm}
+  \centering
+  \includegraphics[height=3.5cm]{screenshot_homepage.png} % ← Screenshot of homepage
 \end{frame}
+
+\begin{frame}{User System}
+  \begin{itemize}
+    \item Registration and secure login
+    \item Profile management
+    \item Firebase-based authentication
+  \end{itemize}
+  \vspace{0.5cm}
+  \centering
+  \includegraphics[height=3.5cm]{Account-Managment.png} % ← Screenshot: Login/Registration
+\end{frame}
+
+\begin{frame}{Chatbot Interface}
+  \begin{itemize}
+    \item Multiple AI models available via tabs:
+    \begin{itemize}
+      \item ChatGPT (OpenAI API)
+      \item Local models (e.g., Ollama)
+      \item Programming Assistant
+    \end{itemize}
+    \item Vision models: LLaVA, LLaMA 3.2 Vision
+  \end{itemize}
+  \vspace{0.5cm}
+  \centering
+  \includegraphics[height=3.5cm]{Chat-Bot-Navigation-Bar.png} % ← Screenshot of chatbot interface
+\end{frame}
+
+\begin{frame}{Image Generation}
+  \begin{itemize}
+    \item Generate images from text prompts
+    \item Uses DALL·E (OpenAI) via backend API
+    \item Fully integrated into frontend
+  \end{itemize}
+  \vspace{0.5cm}
+  \centering
+  \includegraphics[height=3.5cm]{screenshot_imagegen.png} % ← Screenshot of image generation
+\end{frame}
+
+\begin{frame}{OCR and Image Recognition}
+  \begin{itemize}
+    \item OCR with Tesseract
+    \item Post-processing using LLaMA 3.2 Vision
+    \item Recognize and explain content in uploaded images
+  \end{itemize}
+  \vspace{0.5cm}
+  \centering
+  \includegraphics[height=3.5cm]{OCR-functonalatie.png} % ← Screenshot OCR feature
+\end{frame}
+
 
 % Slide: AI in Economics and Ethics
 \begin{frame}{AI in Economics and Ethics}
