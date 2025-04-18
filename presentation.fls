@@ -526,6 +526,10 @@ INPUT ./HTL-logo.jpeg
 INPUT ./HTL-logo.jpeg
 INPUT ./HTL-logo.jpeg
 INPUT ./HTL-logo.jpeg
+INPUT ./HTL-logo.jpeg
+INPUT ./HTL-logo.jpeg
+INPUT ./HTL-logo.jpeg
+INPUT ./HTL-logo.jpeg
 OUTPUT presentation.nav
 OUTPUT presentation.toc
 OUTPUT presentation.snm
