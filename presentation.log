@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.27)  18 APR 2025 09:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.27)  18 APR 2025 09:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -674,6 +674,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 16.
+ (./presentation.out) (./presentation.out)
 \@outlinefile=\write5
 \openout5 = `presentation.out'.
 
@@ -789,16 +790,13 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 [2
 
 ]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 67--67
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 66--66
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 67.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 66.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
@@ -808,26 +806,29 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 [3
 
 ]
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 85--85
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 67.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 85.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-[4]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 88--88
+[4
+
+]
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 102--102
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 88.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 102.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
@@ -837,23 +838,39 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 [5
 
 ]
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 129--129
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+<homepage-screenshot.png, id=175, 1661.20625pt x 1096.095pt>
+File: homepage-screenshot.png Graphic file (type png)
+<use homepage-screenshot.png>
+Package pdftex.def Info: homepage-screenshot.png  used on input line 129.
+(pdftex.def)             Requested size: 150.92159pt x 99.58464pt.
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 88.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 129.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-[6]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 105--105
+[6
+
+ <./homepage-screenshot.png>]
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 142--142
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
+<Account-Managment.png, id=205, 1108.14pt x 645.41125pt>
+File: Account-Managment.png Graphic file (type png)
+<use Account-Managment.png>
+Package pdftex.def Info: Account-Managment.png  used on input line 142.
+(pdftex.def)             Requested size: 170.98212pt x 99.58464pt.
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 105.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 142.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
@@ -862,19 +879,19 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 
 [7
 
-]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 132--132
+ <./Account-Managment.png>]
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 157--157
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-<homepage-screenshot.png, id=228, 1661.20625pt x 1096.095pt>
-File: homepage-screenshot.png Graphic file (type png)
-<use homepage-screenshot.png>
-Package pdftex.def Info: homepage-screenshot.png  used on input line 132.
-(pdftex.def)             Requested size: 150.92159pt x 99.58464pt.
+<Chat-Bot-Navigation-Bar.png, id=235, 1268.74pt x 508.90125pt>
+File: Chat-Bot-Navigation-Bar.png Graphic file (type png)
+<use Chat-Bot-Navigation-Bar.png>
+Package pdftex.def Info: Chat-Bot-Navigation-Bar.png  used on input line 157.
+(pdftex.def)             Requested size: 248.2648pt x 99.58464pt.
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 132.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 157.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
@@ -883,19 +900,23 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 
 [8
 
- <./homepage-screenshot.png>]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 145--145
+ <./Chat-Bot-Navigation-Bar.png>]
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 167--167
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-<Account-Managment.png, id=259, 1108.14pt x 645.41125pt>
-File: Account-Managment.png Graphic file (type png)
-<use Account-Managment.png>
-Package pdftex.def Info: Account-Managment.png  used on input line 145.
-(pdftex.def)             Requested size: 170.98212pt x 99.58464pt.
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 167.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+<image-generation.png, id=265, 821.0675pt x 1040.88875pt>
+File: image-generation.png Graphic file (type png)
+<use image-generation.png>
+Package pdftex.def Info: image-generation.png  used on input line 167.
+(pdftex.def)             Requested size: 112.21745pt x 142.26378pt.
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 145.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 167.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
@@ -904,19 +925,19 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 
 [9
 
- <./Account-Managment.png>]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 160--160
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./image-generation.png>]
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 178--178
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-<Chat-Bot-Navigation-Bar.png, id=288, 1268.74pt x 508.90125pt>
-File: Chat-Bot-Navigation-Bar.png Graphic file (type png)
-<use Chat-Bot-Navigation-Bar.png>
-Package pdftex.def Info: Chat-Bot-Navigation-Bar.png  used on input line 160.
-(pdftex.def)             Requested size: 248.2648pt x 99.58464pt.
+<OCR-functonalatie.png, id=295, 969.6225pt x 854.19125pt>
+File: OCR-functonalatie.png Graphic file (type png)
+<use OCR-functonalatie.png>
+Package pdftex.def Info: OCR-functonalatie.png  used on input line 178.
+(pdftex.def)             Requested size: 113.03554pt x 99.58464pt.
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 160.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 178.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
@@ -925,122 +946,14 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 
 [10
 
- <./Chat-Bot-Navigation-Bar.png>]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 178--178
+ <./OCR-functonalatie.png>]
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 192--192
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 178.
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
-File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-<image-generation.png, id=317, 821.0675pt x 1040.88875pt>
-File: image-generation.png Graphic file (type png)
-<use image-generation.png>
-Package pdftex.def Info: image-generation.png  used on input line 178.
-(pdftex.def)             Requested size: 112.21745pt x 142.26378pt.
-
-
-/home/luna/5BHWII/Diplomarbeit/SAIPIA/Diploma-thesis-presentation/Diploma-Thesis-presentation/presentation.tex:178: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 178
-[][]
- []
-
-/home/luna/5BHWII/Diplomarbeit/SAIPIA/Diploma-thesis-presentation/Diploma-Thesis-presentation/presentation.tex:178: Undefined control sequence.
-<argument> .../enumerate \beameritemnestingprefix 
-                                                  body end
-l.178 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-File: image-generation.png Graphic file (type png)
-<use image-generation.png>
-Package pdftex.def Info: image-generation.png  used on input line 178.
-(pdftex.def)             Requested size: 78.55347pt x 99.58464pt.
-
-/home/luna/5BHWII/Diplomarbeit/SAIPIA/Diploma-thesis-presentation/Diploma-Thesis-presentation/presentation.tex:178: LaTeX Error: \begin{beamer@frameslide} on input line 178 ended by \end{beamer@framepauses}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-/home/luna/5BHWII/Diplomarbeit/SAIPIA/Diploma-thesis-presentation/Diploma-Thesis-presentation/presentation.tex:178: Missing } inserted.
-<inserted text> 
-                }
-l.178 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/luna/5BHWII/Diplomarbeit/SAIPIA/Diploma-thesis-presentation/Diploma-Thesis-presentation/presentation.tex:178: Too many }'s.
-\endbeamer@frameslide ...amer@framepauses}\egroup 
-                                                  \ifx \beamer@frametitle \@...
-l.178 \end{frame}
-                 
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-/home/luna/5BHWII/Diplomarbeit/SAIPIA/Diploma-thesis-presentation/Diploma-Thesis-presentation/presentation.tex:178: Undefined control sequence.
-\endbeamer@frameslide ...box \else \beamer@zoomer 
-                                                  \fi \beamer@undolabels \be...
-l.178 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-/home/luna/5BHWII/Diplomarbeit/SAIPIA/Diploma-thesis-presentation/Diploma-Thesis-presentation/presentation.tex:178: LaTeX Error: \begin{document} ended by \end{beamer@frameslide}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-/home/luna/5BHWII/Diplomarbeit/SAIPIA/Diploma-thesis-presentation/Diploma-Thesis-presentation/presentation.tex:178: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.178 \end{frame}
-                 
-Things are pretty mixed up, but I think the worst is over.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 178.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 192.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
@@ -1050,34 +963,29 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 [11
 
 ]
-Overfull \vbox (82.05443pt too high) has occurred while \output is active []
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 203--203
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 178.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 203.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-[12{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./image-generation.png>]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 194--194
+[12
+
+]
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 213--213
  [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-<OCR-functonalatie.png, id=374, 969.6225pt x 854.19125pt>
-File: OCR-functonalatie.png Graphic file (type png)
-<use OCR-functonalatie.png>
-Package pdftex.def Info: OCR-functonalatie.png  used on input line 194.
-(pdftex.def)             Requested size: 113.03554pt x 99.58464pt.
-
-Overfull \vbox (1.93622pt too high) detected at line 194
  []
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 194.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 213.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
@@ -1086,46 +994,45 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 
 [13
 
- <./OCR-functonalatie.png>]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 208--208
+]
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 237--237
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 208.
-(pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
-
-Overfull \hbox (26.64893pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 237.
+(pdftex.def)             Requested size: 218.51942pt x 218.51797pt.
 [14
 
 ]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 219--219
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 249--249
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 219.
-(pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
-
-Overfull \hbox (26.64893pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 249.
+(pdftex.def)             Requested size: 218.51942pt x 218.51797pt.
 [15
 
 ]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 229--229
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 260--260
  [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+<combined_metrics.png, id=460, 1291.4649pt x 1000.9395pt>
+File: combined_metrics.png Graphic file (type png)
+<use combined_metrics.png>
+Package pdftex.def Info: combined_metrics.png  used on input line 260.
+(pdftex.def)             Requested size: 273.83728pt x 212.23482pt.
+
+Overfull \vbox (31.77528pt too high) detected at line 260
  []
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 229.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 260.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
@@ -1134,45 +1041,56 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 
 [16
 
-]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 253--253
+ <./combined_metrics.png>]
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 279--279
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
+<model_cpu_usage_comparison.png, id=491, 715.473pt x 297.2706pt>
+File: model_cpu_usage_comparison.png Graphic file (type png)
+<use model_cpu_usage_comparison.png>
+Package pdftex.def Info: model_cpu_usage_comparison.png  used on input line 279.
+(pdftex.def)             Requested size: 154.03183pt x 63.99811pt.
+<model_memory_usage_comparison.png, id=492, 714.9912pt x 397.0032pt>
+File: model_memory_usage_comparison.png Graphic file (type png)
+<use model_memory_usage_comparison.png>
+Package pdftex.def Info: model_memory_usage_comparison.png  used on input line 279.
+(pdftex.def)             Requested size: 154.03183pt x 85.52364pt.
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 253.
-(pdftex.def)             Requested size: 218.51942pt x 218.51797pt.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 279.
+(pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
+
+Overfull \hbox (26.64893pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
 [17
 
-]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 265--265
+ <./model_cpu_usage_comparison.png> <./model_memory_usage_comparison.png>]
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 297--297
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 265.
-(pdftex.def)             Requested size: 218.51942pt x 218.51797pt.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 297.
+(pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
+
+Overfull \hbox (26.64893pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
 [18
 
 ]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 276--276
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 308--308
  [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-<combined_metrics.png, id=539, 1291.4649pt x 1000.9395pt>
-File: combined_metrics.png Graphic file (type png)
-<use combined_metrics.png>
-Package pdftex.def Info: combined_metrics.png  used on input line 276.
-(pdftex.def)             Requested size: 273.83728pt x 212.23482pt.
-
-Overfull \vbox (31.77528pt too high) detected at line 276
  []
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 276.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 308.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
@@ -1181,24 +1099,14 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 
 [19
 
- <./combined_metrics.png>]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 295--295
+]
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 317--317
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-<model_cpu_usage_comparison.png, id=570, 715.473pt x 297.2706pt>
-File: model_cpu_usage_comparison.png Graphic file (type png)
-<use model_cpu_usage_comparison.png>
-Package pdftex.def Info: model_cpu_usage_comparison.png  used on input line 295.
-(pdftex.def)             Requested size: 154.03183pt x 63.99811pt.
-<model_memory_usage_comparison.png, id=571, 714.9912pt x 397.0032pt>
-File: model_memory_usage_comparison.png Graphic file (type png)
-<use model_memory_usage_comparison.png>
-Package pdftex.def Info: model_memory_usage_comparison.png  used on input line 295.
-(pdftex.def)             Requested size: 154.03183pt x 85.52364pt.
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 295.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 317.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
@@ -1207,14 +1115,14 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 
 [20
 
- <./model_cpu_usage_comparison.png> <./model_memory_usage_comparison.png>]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 313--313
+]
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 328--328
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 313.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 328.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
@@ -1224,16 +1132,13 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 [21
 
 ]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 325--325
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 338--338
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 325.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 338.
 (pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
 
 Overfull \hbox (26.64893pt too wide) has occurred while \output is active
@@ -1243,102 +1148,15 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 [22
 
 ]
-File: HTL-logo.jpeg Graphic file (type jpg)
-<use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 325.
-(pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
-
-Overfull \hbox (26.64893pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[23]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 334--334
+Overfull \hbox (26.64893pt too wide) in paragraph at lines 351--351
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 334.
-(pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
-
-Overfull \hbox (26.64893pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[24
-
-]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 345--345
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-File: HTL-logo.jpeg Graphic file (type jpg)
-<use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 345.
-(pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
-
-Overfull \hbox (26.64893pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[25
-
-]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 355--355
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-File: HTL-logo.jpeg Graphic file (type jpg)
-<use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 355.
-(pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
-
-Overfull \hbox (26.64893pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[26
-
-]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 372--372
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-File: HTL-logo.jpeg Graphic file (type jpg)
-<use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 372.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 351.
 (pdftex.def)             Requested size: 218.51942pt x 218.51797pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27
-
-]
-File: HTL-logo.jpeg Graphic file (type jpg)
-<use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 372.
-(pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
-
-Overfull \hbox (26.64893pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[28]
-Overfull \hbox (26.64893pt too wide) in paragraph at lines 380--380
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-File: HTL-logo.jpeg Graphic file (type jpg)
-<use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 380.
-(pdftex.def)             Requested size: 22.76076pt x 22.76228pt.
-
-Overfull \hbox (26.64893pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[29
+[23
 
 ]
 \tf@nav=\write6
@@ -1355,35 +1173,22 @@ Overfull \hbox (26.64893pt too wide) has occurred while \output is active
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `presentation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `presentation.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `presentation.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24888 strings out of 474222
- 495833 string characters out of 5748733
+ 24877 strings out of 474222
+ 495767 string characters out of 5748733
  1938975 words of memory out of 5000000
- 46587 multiletter control sequences out of 15000+600000
+ 46585 multiletter control sequences out of 15000+600000
  565761 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,123p,503b,635s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{Navigation30} has been referenced but does not exist, replaced by a fixed one
-
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on presentation.pdf (29 pages, 2572385 bytes).
+Output written on presentation.pdf (23 pages, 2561718 bytes).
 PDF statistics:
- 888 PDF objects out of 1000 (max. 8388607)
- 781 compressed objects within 8 object streams
- 63 named destinations out of 1000 (max. 500000)
+ 726 PDF objects out of 1000 (max. 8388607)
+ 627 compressed objects within 7 object streams
+ 50 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
