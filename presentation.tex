@@ -1,240 +1,232 @@
 \documentclass{beamer}
-\usetheme{CambridgeUS}
+
+% Use a modern, clean theme
+\usetheme{metropolis}
+
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{tikz}
-
-% Logo top-right
-\logo{\includegraphics[height=0.8cm]{HTL-logo.jpeg}} % Replace with correct path to HTL Anichstraße logo
+\usepackage{lmodern}
 
 % Title and author info
 \title[AI Integration in Education and Dev]{Integration of Artificial Intelligence in Education and Software Development}
-\author[Luna Sch\"atzle, Florian Prandstetter]{Luna Sch\"atzle \\ Florian Prandstetter}
-\institute[HTL Anichstra\ss e]{HTL Anichstra\ss e, Department of Business Informatics\\Thesis Supervisor:\\Mag. Dr. Dipl. -Ing. Albert Greinöcker\\MMag.\textsuperscript{a} Eva-Maria Egger, MA}
+\author[Luna Schätzle \& Florian Prandstetter]{Luna Schätzle \\ Florian Prandstetter}
+\institute[HTL Anichstraße]{HTL Anichstraße, Department of Business Informatics\\Thesis Supervisor: \\Mag. Dr. Dipl.-Ing. Albert Greinöcker\\MMag.\textsuperscript{a} Eva-Maria Egger, MA}
 \date{Diploma Thesis Defense -- April 2025}
+
+% Logo placed at the top-right
+\logo{\includegraphics[height=1cm]{HTL-logo.jpeg}}
+
+% Optional background watermark for additional visual appeal
+%\setbeamertemplate{background}{%
+%  \begin{tikzpicture}[remember picture,overlay]
+%    \node[opacity=0.1, at=(current page.center)] 
+%      {\includegraphics[width=0.5\textwidth]{HTL-logo.jpeg}};
+%  \end{tikzpicture}
+%}
 
 \begin{document}
 
+% Title Slide
 \begin{frame}
-  \titlepage
+  \maketitle
 \end{frame}
 
 % Slide: Introduction
 \begin{frame}{Introduction}
-    \begin{itemize}
-      \item \textbf{Presenter:} Luna Schätzle – Project Lead (AI evaluation, backend \& website)
-      \item \textbf{Objective:} Open-source AI platform for education
-      \item \textbf{Focus:} Evaluate various AI models for multiple use cases
-      \item \textbf{Platform:} Enable students to access and experiment with AI
-      \item \textbf{Motivation:} Overcome high resource requirements of current Open Source AI models
-    \end{itemize}
-  \end{frame}
-  
-
-% Slide: Project Team and Organization
-%\begin{frame}{Project Team and Management}
-%    \begin{itemize}
-%      \item \textbf{Team Members:} Luna Schätzle, Florian Prandstetter
-%      \item \textbf{Project Coordination:} Regular meetings, discussions, and planning sessions
-%      \item \textbf{Tools Employed:}
-%        \begin{itemize}
-%          \item GitHub for version control and collaborative coding
-%          \item Discord for communication and coordination
-%          \item Google Sheets for time tracking
-%          \item LaTeX for comprehensive documentation
-%        \end{itemize}
-%    \end{itemize}
-%  \end{frame}
-  
-% Slide: Theoretical Background
-%\begin{frame}{Theoretical Background}
-%    \begin{itemize}
-%      \item \textbf{LLMs Integration:} Evaluation and incorporation of various Large Language Models.
-%      \item \textbf{Interfaces:} API connections, local models (e.g., Ollama), and OpenAI API.
-%      \item \textbf{Evaluation:} Systematic testing of open source models 
-%    \end{itemize}
-%  \end{frame}
-
-\begin{frame}{Open Source: Impact \& Approach}
-  \begin{itemize}
-    \item \textbf{Definition:} Public, collaborative development
-    \item \textbf{Benefits:} Cost-efficient, flexible, secure via community review
-    \item \textbf{Impact:} Fuels innovation and startup growth
-    \item \textbf{Our Approach:} Leveraging Python, Flask, Vue.js 
-    \item \textbf{Our Application:} Open-source licensed under GNU GPL-3.0
-  \end{itemize}
+  \begin{columns}
+    \column{0.75\textwidth}
+      \begin{itemize}
+        \item \textbf{Presenter:} Luna Schätzle – Project Lead \\(AI evaluation, backend \& website)
+        \item \textbf{Objective:} Develop an open-source AI platform for education
+        \item \textbf{Focus:} Evaluate various AI models for diverse applications
+        \item \textbf{Platform:} Provide students with accessible AI tools
+        \item \textbf{Motivation:} Mitigate the high resource demands of current open-source AI models
+      \end{itemize}
+    \column{0.25\textwidth}
+      \centering
+      \includegraphics[height=4.5cm,keepaspectratio]{Luna-Schaetzle.jpg} % Ersetze "portrait.jpg" mit deinem Bilddateinamen
+  \end{columns}
 \end{frame}
 
-  
+% Slide: Open Source Impact & Approach
+\begin{frame}{Open Source: Impact \& Approach}
+  \begin{columns}
+    \column{0.80\textwidth}
+      \begin{itemize}
+        \item \textbf{Definition:} Public, collaborative development
+        \item \textbf{Benefits:} Cost-efficient, flexible, and secure via community review
+        \item \textbf{Impact:} Fuels innovation and startup growth
+        \item \textbf{Approach:} Leverage Python, Flask, and Vue.js
+        \item \textbf{Licensing:} Released under GNU GPL-3.0
+      \end{itemize}
+    \column{0.20\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{Open-Source.png} % Replace with a relevant image
+  \end{columns}
+\end{frame}
+
 
 % Slide: Testing and Evaluation
 \begin{frame}{Testing and Evaluation}
   \begin{itemize}
-    \item Evaluation of models: Llama3.2, Deepseek-r1, gemma2, qwen, ...
-    \item Testing methods: Different prompts and tasks where asked the models (automated via Python script)
-    \item Evaluation criteria: 
+    \item \textbf{Models Evaluated:} Llama3.2, Deepseek-r1, Gemma2, Qwen, etc.
+    \item \textbf{Methods:} Automated testing with varied prompts via Python scripts.
+    \item \textbf{Criteria:}
       \begin{itemize}
-        \item response time
-        \item accuracy
-        \item resource usage
+        \item Response time
+        \item Accuracy
+        \item Resource utilization
         \item BLEU score
-        \item readability
-        \item Textquality
+        \item Readability and text quality
       \end{itemize}
   \end{itemize}
+  %\vspace{0.3cm}
+  %\centering
+  %\includegraphics[width=0.6\textwidth]{Model-Evaluation.png} % Replace with a representative chart or graphic
 \end{frame}
 
+% Slide: Evaluation Results
 \begin{frame}{Evaluation Results}
-  \begin{itemize}
-    \item \textbf{Data Preparation:} Graphical analysis was conducted to elucidate patterns.
-    \item \textbf{Model Performance:}
-      \begin{itemize}
-        \item Marked differences in response time, accuracy, and resource consumption.
-        \item Smaller models demonstrated superior efficiency.
+        \begin{itemize}
+        \item \textbf{Data Visualization:} results plotted to highlight key differences
+        \item \textbf{Performance Analysis:}
+          \begin{itemize}
+            \item Distinct variations in latency, accuracy, and resource consumption
+            \item Compact models often yield superior efficiency
+          \end{itemize}
+          \item \textbf{Key Insight:} Model size is unreliable for overall performance; holistic evaluation is essential.
+        \item \textbf{Integration:}
+          \begin{itemize}
+            \item Flexible, user‑driven model selection
+            \item User can select the model based on their needs
+          \end{itemize}
       \end{itemize}
-    \item \textbf{User Integration:}
-      \begin{itemize}
-        \item A diverse array of models is available for selection.
-        \item The top-performing model is auto-recommended.
-      \end{itemize}
-    \item \textbf{Key Insight:} Model size does not reliably predict quality; balanced assessments are imperative.
-  \end{itemize}
 \end{frame}
 
 
-% Slide: Backend Architecture
-%\begin{frame}{Backend Architecture}
-%  \begin{itemize}
-%    \item Design based on model integration needs
-%    \item Functionality of the backend (AI Hub, Code Bot)
-%    \item Structure: Flask-based API, endpoints for services
-%    \item Reference to server setup by Florian
-%  \end{itemize}
-%\end{frame}
-
+% Slide: Website Platform
 \begin{frame}{Website Platform}
-  \begin{itemize}
-    \item Developed to make AI accessible to students.
-    \item Built with:
-    \begin{itemize}
-      \item Vue.js (Frontend)
-      \item Flask (Backend API)
-      \item Firebase (User data \& authentication)
-    \end{itemize}
-    \item Purpose: Central interface for interacting with various AI tools.
-  \end{itemize}
-  \vspace{0.5cm}
-  \centering
-  \includegraphics[height=3.5cm]{homepage-screenshot.png} % ← Screenshot of homepage
+  \begin{columns}
+    \column{0.5\textwidth}
+      \begin{itemize}
+        \item Developed to provide students with an interactive AI interface.
+        \item Technologies: Vue.js (Frontend), Flask (Backend API), and Firebase (Authentication).
+        \item Serves as a centralized portal for accessing various AI tools.
+      \end{itemize}
+    \column{0.5\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{homepage-screenshot.png}
+  \end{columns}
 \end{frame}
 
-
-
+% Slide: User System
 \begin{frame}{User System}
-  \begin{itemize}
-    \item Registration and secure login
-    \item Profile management
-    \item Firebase-based authentication
-  \end{itemize}
-  \vspace{0.5cm}
-  \centering
-  \includegraphics[height=3.5cm]{Account-Managment.png} % ← Screenshot: Login/Registration
+  \begin{columns}
+    \column{0.5\textwidth}
+      \begin{itemize}
+        \item Secure registration and login.
+        \item User profile management.
+        \item Firebase-based authentication.
+      \end{itemize}
+    \column{0.5\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{Account-Managment.png}
+  \end{columns}
 \end{frame}
 
+% Slide: Chatbot Interface
 \begin{frame}{Chatbot Interface}
-  \begin{itemize}
-    \item Multiple AI models available via tabs:
     \begin{itemize}
-      \item ChatGPT (OpenAI API)
-      \item Local models (e.g., Ollama)
-      \item Programming Assistant
-    \end{itemize}
-    \item Vision models: LLaVA, LLaMA 3.2 Vision
-  \end{itemize}
-  \vspace{0.5cm}
-  \centering
-  \includegraphics[height=3.5cm]{Chat-Bot-Navigation-Bar.png} % ← Screenshot of chatbot interface
-\end{frame}
-
-\begin{frame}{Image Generation}
-  \begin{itemize}
-    \item Generate images from text prompts
-    \item Uses DALL·E (OpenAI)
-  \end{itemize}
-  \vspace{0.5cm}
-  \centering
-  \includegraphics[height=5cm]{image-generation.png} % ← Screenshot of image generation
-\end{frame}
-
-\begin{frame}{OCR and Image Recognition}
-  \begin{itemize}
-    \item OCR with Tesseract
-    \item Post-processing using a large language model
-    \item Leverages Markdown for formatting
-  \end{itemize}
-  \vspace{0.5cm}
-  \centering
-  \includegraphics[height=3.5cm]{OCR-functonalatie.png} % ← Screenshot OCR feature
-\end{frame}
-
-
-% Slide: AI in Economics and Ethics
-\begin{frame}{AI in Economics and Ethics}
-\textbf{Applications:}
-        \begin{itemize}
-          \item Customer service \& support
-          \item Supply chain management
-          \item Predictive analytics
-          \item Data analysis
-          \item Process automation
-        \end{itemize}
-
-\end{frame}
-
-% Slide: AI in Economics and Ethics
-\begin{frame}{AI in Economics and Ethics}
-\textbf{Ethical \& Social Concerns:}
-        \begin{itemize}
-          \item Bias in training data
-          \item Transparency \& accountability
-          \item Privacy and data protection
-          \item Impact on the workflow and job displacements
-        \end{itemize}
-\end{frame}
-
-% Slide: AI in Economics and Ethics
-\begin{frame}{AI in Economics and Ethics}
-\textbf{Regulatory Challenges:}
+        \item Multiple AI models available via a tabbed interface:
             \begin{itemize}
-              \item Data security standards (e.g., GDPR [EUR-Lex: 2016/679])
-              \item EU AI Act considerations [EUR-Lex: 2024/1689]
-              \item Inconsistent global regulations 
+                \item ChatGPT (OpenAI API)
+                \item Local models (e.g., Ollama)
+                \item Programming Assistant
             \end{itemize}
+        \item Vision capabilities: LLaVA, LLaMA 3.2 Vision.
+    \end{itemize}
+    \vspace{0.1cm}
+    \centering
+    \includegraphics[width=0.65\textwidth]{Chat-Bot-Navigation-Bar.png}
 \end{frame}
 
+% Slide: Image Generation
+\begin{frame}{Image Generation}
+  \begin{columns}
+    \column{0.6\textwidth}
+      \begin{itemize}
+        \item Generate images from text prompts.
+        \item Powered by DALL·E (OpenAI).
+      \end{itemize}
+    \column{0.4\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{image-generation.png}
+  \end{columns}
+\end{frame}
 
+% Slide: OCR and Image Recognition
+\begin{frame}{OCR ... Objective Character Recognition}
+  \begin{columns}
+    \column{0.6\textwidth}
+      \begin{itemize}
+        \item OCR capabilities using Tesseract.
+        \item Post-processing with a large language model.
+        \item Outputs formatted using Markdown.
+      \end{itemize}
+    \column{0.4\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{OCR-functonalatie.png}
+  \end{columns}
+\end{frame}
 
-% Slide: Conclusion
-%\begin{frame}{Conclusion}
-%  \begin{itemize}
-%    \item Summary of achievements
-%    \item Insights gained during the development
-%    \item Future potential of the system
-%    \item Final thoughts and acknowledgments
-%  \end{itemize}
-%\end{frame}
+% Slide: AI in Economics and Ethics
+\begin{frame}{AI in Economics and Ethics}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \textbf{Applications:}
+      \begin{itemize}
+        \item Customer service \& support
+        \item Supply chain management
+        \item Predictive analytics
+        \item Data analysis
+        \item Process automation
+      \end{itemize}
+    \column{0.5\textwidth}
+      \textbf{Ethical \& Social Concerns:}
+      \begin{itemize}
+        \item Bias in training data
+        \item Transparency \& accountability
+        \item Privacy and data protection
+        \item Job displacement and workflow changes
+      \end{itemize}
+  \end{columns}
+\end{frame}
+% Slide: Regulatory Challenges
+\begin{frame}{AI in Economics and Ethics: Regulatory Challenges}
+    \begin{columns}
+        \column{0.55\textwidth}
+            \begin{itemize}
+                \item Data security standards \\(GDPR [EUR-Lex: 2016/679])
+                \item EU AI Act considerations [EUR-Lex: 2024/1689]
+                \item Inconsistent global regulations
+            \end{itemize}
+        \column{0.45\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{EU-AI-Regulation.png} % Bild hinzufügen, ersetze "regulatory_challenge.png" ggf. mit deinem Bilddateinamen
+    \end{columns}
+\end{frame}
 
+% Closing Slide
 \begin{frame}[plain]
-  % Background HTL logo with transparency
-  \begin{tikzpicture}[remember picture,overlay]
-    \node[opacity=0.2] at (current page.center) 
-      {\includegraphics[width=0.6\paperwidth]{HTL-logo.jpeg}};
-  \end{tikzpicture}
-  
-  \centering
-  \vspace{1cm}
-  \Huge Thank You for Your Attention!
+    \centering
+    \begin{tikzpicture}[remember picture,overlay]
+            \node[opacity=0.1, at=(current page.center)] 
+              {\includegraphics[width=0.5\textwidth]{HTL-logo.jpeg}};
+          \end{tikzpicture}
+    \Huge Thank You for Your Attention!
 \end{frame}
+
 
 \begin{frame}[plain]
   % Background HTL logo with transparency
@@ -290,7 +282,10 @@
   \Huge Backup slides: Graphes
 \end{frame}
 
-
+% Title Slide
+\begin{frame}
+  \maketitle
+\end{frame}
 
 \begin{frame}{Server}
   \begin{itemize}
