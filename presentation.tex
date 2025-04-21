@@ -270,22 +270,28 @@
   \end{columns}
 \end{frame}
 
-\begin{frame}[plain]
-  % Background HTL logo with transparency
-  \begin{tikzpicture}[remember picture,overlay]
-    \node[opacity=0.2] at (current page.center) 
-      {\includegraphics[width=0.6\paperwidth]{HTL-logo.jpeg}};
-  \end{tikzpicture}
-  
-  \centering
-  \vspace{1cm}
-  \Huge Backup slides: Graphes
-\end{frame}
 
 % Title Slide
 \begin{frame}
   \maketitle
 \end{frame}
+
+\begin{frame}{Introduction}
+  \begin{columns}
+    \column{0.75\textwidth}
+      \begin{itemize}
+        \item \textbf{Presenter:} Florian Prandstetter – Server, VS Code Extension \& Operating Systems
+        \item \textbf{Objective:} Develop an open-source Extension for Visual Studio Code and a stable server enviorment
+        \item \textbf{Focus:} Brauchen ma des?
+        \item \textbf{Platform:} Brauchen ma des?
+        \item \textbf{Motivation:} Brauchen ma des?
+      \end{itemize}
+    \column{0.25\textwidth}
+      \centering
+  \end{columns}
+\end{frame}
+
+
 
 \begin{frame}{Server}
   \begin{itemize}
@@ -299,13 +305,6 @@
         \item Power Supply: 500W BeQuiet
         \item Storage: 512GB NVMe SSDd
       \end{itemize}
-    \item \textbf{Used Operating System:} The Server is running with the Ubuntu Server Operating System. The Operating System has been chosen due to the good cuda support. 
-
-  \end{itemize}
-\end{frame}
-
-\begin{frame}{Server}
-  \begin{itemize}
     \item \textbf{Networking:}
       \begin{itemize}
         \item Axios: Used for server requests 
@@ -315,36 +314,114 @@
   \end{itemize}
 \end{frame}
 
-\begin{frame}{Flask Service}
+\begin{frame}{Operating System}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \begin{itemize}
+        \item \textbf{Used Operating System:} The Server is running with the Ubuntu Server Operating System. 
+        \begin{itemize}
+          \item Good basis for AI models
+          \item CUDA support
+        \end{itemize}
+      \end{itemize}
+    \column{0.5\textwidth}
+      \includegraphics[width=\textwidth]{Ubuntu.png}
+  \end{columns}
+
+\end{frame}
+
+
+\begin{frame}{Operating System Market Share} 
+  \begin{columns}
+    \column{0.5\textwidth}
+      \textbf{For Personal Use}
+      \includegraphics[width=\textwidth]{StatCounter.png}
+    \column{0.5\textwidth}
+      \textbf{For Servers}
+      
+      \includegraphics[width=\textwidth]{ServerOSShare.png}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Server Operating System Market Volume} 
   \begin{itemize}
-    \item Flask as a Web Framework
-    \item Architecture and Service Structure
-    \item Restful Endpoints and Functionalities
-    \item Deployment with Docker
+    \item Glabal Market Share: America 59,56\text{\%}
+    \item CAGR: 12,4\text{\%}
+    \item Expected to double by 2032
+    \includegraphics[width=0.8\textwidth]{Server-Market-Volume.png}
   \end{itemize}
 \end{frame}
+
+
+\begin{frame}{Flask Service}
+  \begin{itemize}
+    \item \textbf{Restful Endpoints and Functionalities:}
+    \begin{itemize}
+      \item Chatbot 
+      \item Programming bot
+      \item OCR 
+    \end{itemize}
+    \item \textbf{Deployment with Docker:}
+    \begin{itemize}
+      \item Dockerfile
+      \item Docker-Compose
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Flask Service}
+  \begin{itemize}
+    \item Architecture and Service Structure
+    \includegraphics[width=\textwidth]{flask_service.png}
+  \end{itemize}
+\end{frame}
+
 
 
 \begin{frame}{Visual Studio Code Extension}
-  \begin{itemize}
-    % Bild !!!
-    \item VS Code API / Typescript
-    \item Server Request
-    \item Integrated Chatbot
-    \item Status Bar Item 
-  \end{itemize}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \begin{itemize}
+        \item \textbf{Integrated AI Chatbot}
+        \item \textbf{Technologies:}
+        \begin{itemize}
+          \item VS Code API
+          \item Type Script
+        \end{itemize}
+        \item \textbf{Server Requests:}  Are handled with Axios to create a stable connection.
+      \end{itemize}
+    \column{0.175\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{VSCode.png}
+  \end{columns}
 \end{frame}
 
-\begin{frame}{Operating System Market Share} 
-  \begin{itemize}
-    % Bilder !!!
-    \item \textbf{Competitors:} Android, Microsoft Windows, Apple and Linux hold most of the market.
-    \item  Bild
-    \item \textbf{For Servers:} When looking at Server Operating Systems specifically The main Competitors are Red Hat and Microsoft.
-    \item  Bild
-  \end{itemize}
+
+
+\begin{frame}{Visual Studio Code Extension}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \begin{itemize}
+        \item Seperate Chat-Window
+        \item Output into file
+        \item Adjustable Color Themes
+      \end{itemize}
+    \column{0.6\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{VSCodeExtension.png}
+  \end{columns}
 \end{frame}
 
+\begin{frame}{Risks of AI}
+
+  \begin{itemize}
+    \item \textbf{Transparency}
+    \item \textbf{Accountability}
+    \item \textbf{Job displacement}
+  \end{itemize}
+
+
+\end{frame}
 
 \begin{frame}[plain]
   % Background HTL logo with transparency
@@ -357,5 +434,18 @@
   \vspace{1cm}
   \Huge Thank You for Your Attention!
 \end{frame}
+
+\begin{frame}[plain]
+  % Background HTL logo with transparency
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[opacity=0.2] at (current page.center) 
+      {\includegraphics[width=0.6\paperwidth]{HTL-logo.jpeg}};
+  \end{tikzpicture}
+  
+  \centering
+  \vspace{1cm}
+  \Huge Backup slides: Graphes
+\end{frame}
+
 
 \end{document}
