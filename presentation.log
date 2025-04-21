@@ -1187,7 +1187,7 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 179.
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 202.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 201.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [11
 
@@ -1195,20 +1195,20 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 202.
 <EU-AI-Regulation.png, id=89, 1027.84pt x 578.16pt>
 File: EU-AI-Regulation.png Graphic file (type png)
 <use EU-AI-Regulation.png>
-Package pdftex.def Info: EU-AI-Regulation.png  used on input line 218.
+Package pdftex.def Info: EU-AI-Regulation.png  used on input line 217.
 (pdftex.def)             Requested size: 138.2795pt x 77.77475pt.
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 218.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 217.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [12
 
  <./EU-AI-Regulation.png (PNG copy)>]
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 228.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 227.
 (pdftex.def)             Requested size: 153.64493pt x 153.64394pt.
 
 
@@ -1217,7 +1217,7 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 228.
 ]
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 241.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 240.
 (pdftex.def)             Requested size: 218.51942pt x 218.51797pt.
 
 
@@ -1227,17 +1227,17 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 241.
 <combined_metrics.png, id=107, 1291.4649pt x 1000.9395pt>
 File: combined_metrics.png Graphic file (type png)
 <use combined_metrics.png>
-Package pdftex.def Info: combined_metrics.png  used on input line 252.
+Package pdftex.def Info: combined_metrics.png  used on input line 251.
 (pdftex.def)             Requested size: 245.83282pt x 190.53175pt.
 
-Overfull \vbox (18.36993pt too high) detected at line 252
+Overfull \vbox (18.36993pt too high) detected at line 251
  []
 
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 252.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 251.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [15
 
@@ -1245,20 +1245,20 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 252.
 <model_cpu_usage_comparison.png, id=115, 715.473pt x 297.2706pt>
 File: model_cpu_usage_comparison.png Graphic file (type png)
 <use model_cpu_usage_comparison.png>
-Package pdftex.def Info: model_cpu_usage_comparison.png  used on input line 271
+Package pdftex.def Info: model_cpu_usage_comparison.png  used on input line 270
 .
 (pdftex.def)             Requested size: 138.2795pt x 57.4527pt.
 <model_memory_usage_comparison.png, id=116, 714.9912pt x 397.0032pt>
 File: model_memory_usage_comparison.png Graphic file (type png)
 <use model_memory_usage_comparison.png>
 Package pdftex.def Info: model_memory_usage_comparison.png  used on input line 
-271.
+270.
 (pdftex.def)             Requested size: 138.2795pt x 76.77621pt.
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 271.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 270.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [16
 
