@@ -8,6 +8,7 @@
 \usepackage{tikz}
 \usepackage{lmodern}
 
+
 % Title and author info
 \title[AI Integration in Education and Dev]{Integration of Artificial Intelligence in Education and Software Development}
 \author[Luna Schätzle \& Florian Prandstetter]{Luna Schätzle \\ Florian Prandstetter}
@@ -26,6 +27,181 @@
 %}
 
 \begin{document}
+
+\begin{frame}
+  \maketitle
+\end{frame}
+
+
+
+\begin{frame}{Introduction}
+  \begin{columns}
+    \column{0.75\textwidth}
+      \begin{itemize}
+        \item \textbf{Presenter:} Florian Prandstetter 
+        \item \textbf{Objective:} Server, VS Code Extension \& Operating Systems
+        \item \textbf{Focus:} Develop an open-source Extension for Visual Studio Code and a stable server enviorment
+      \end{itemize}
+    \column{0.25\textwidth}
+      \centering
+  \end{columns}
+\end{frame}
+
+
+
+\begin{frame}{Server}
+  \begin{itemize}
+    \item \textbf{Server Hardware:}
+    %Bild???
+      \begin{itemize}
+        \item CPU: Intel Core i5.8600k
+        \item GPU: NVIDA GeForce RTX 2060
+        \item RAM: 16GB DDR4 
+        \item Motherboard: H370 Chipset
+        \item Power Supply: 500W BeQuiet
+        \item Storage: 512GB NVMe SSDd
+      \end{itemize}
+    \item \textbf{Networking:}
+      \begin{itemize}
+        \item Axios: Used for server requests 
+        \item Tailscale: VPN tunnel used for secure remote access 
+      \end{itemize}
+    \item \textbf{Backup and Recovery:} Regular system backups have been made to avoid data loss.      
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Operating System}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \begin{itemize}
+        \item \textbf{Used Operating System:} The Server is running with the Ubuntu Server Operating System. 
+        \begin{itemize}
+          \item Good basis for AI models
+          \item CUDA support
+        \end{itemize}
+      \end{itemize}
+    \column{0.5\textwidth}
+      \centering
+      \includegraphics[width=0.5\textwidth]{Ubuntu.png}
+  \end{columns}
+
+\end{frame}
+
+
+\begin{frame}{Operating System Market Share} 
+  \begin{columns}
+    \column{0.5\textwidth}
+      \textbf{For Personal Use}
+      \includegraphics[width=\textwidth]{StatCounter.png}
+    \column{0.5\textwidth}
+      \textbf{For Servers}
+      
+      \includegraphics[width=\textwidth]{ServerOSShare.png}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Server Operating System Market Volume} 
+  \begin{itemize}
+    \item Glabal Market Share: America 59,56\text{\%}
+    \item CAGR: 12,4\text{\%}
+    \item Expected to double by 2032
+    \includegraphics[width=0.8\textwidth]{Server-Market-Volume.png}
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Flask Service}
+  \begin{itemize}
+    \item \textbf{Restful Endpoints and Functionalities:}
+    \begin{itemize}
+      \item Chatbot 
+      \item Programming bot
+      \item Obtical Character Recognition 
+    \end{itemize}
+    \item \textbf{Deployment with Docker:}
+    \begin{itemize}
+      \item Dockerfile
+      \item Docker-Compose
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Flask Service}
+  \begin{itemize}
+    \item Architecture and Service Structure
+    \includegraphics[width=\textwidth]{flask_service.png}
+  \end{itemize}
+\end{frame}
+
+
+
+\begin{frame}{Visual Studio Code Extension}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \begin{itemize}
+        \item \textbf{Integrated AI Chatbot}
+        \item \textbf{Technologies:}
+        \begin{itemize}
+          \item VS Code API
+          \item Type Script
+        \end{itemize}
+        \item \textbf{Server Requests:}  Are handled with Axios to create a stable connection.
+      \end{itemize}
+    \column{0.175\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{VSCode.png}
+  \end{columns}
+\end{frame}
+
+
+
+\begin{frame}{Visual Studio Code Extension}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \begin{itemize}
+        \item Seperate Chat-Window
+        \item Output into file
+        \item Adjustable Color Themes
+      \end{itemize}
+    \column{0.6\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{VSCodeExtension.png}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Risks of AI \& Ethical concerns}
+  \begin{itemize}
+    \item \textbf{Transparency and Data Protection}
+    \item \textbf{Bias in training data}
+    \item \textbf{Accountability}
+    \item \textbf{Job displacement}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[plain]
+  % Background HTL logo with transparency
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[opacity=0.2] at (current page.center) 
+      {\includegraphics[width=0.6\paperwidth]{HTL-logo.jpeg}};
+  \end{tikzpicture}
+  
+  \centering
+  \vspace{1cm}
+  \Huge Thank You for Your Attention!
+\end{frame}
+
+\begin{frame}[plain]
+  % Background HTL logo with transparency
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[opacity=0.2] at (current page.center) 
+      {\includegraphics[width=0.6\paperwidth]{HTL-logo.jpeg}};
+  \end{tikzpicture}
+  \centering
+  \vspace{1cm}
+  \Huge Backup slides: Graphes
+\end{frame}
+
+
 
 % Title Slide
 \begin{frame}
@@ -289,177 +465,6 @@
 \end{frame}
 
 
-% Title Slide
-\begin{frame}
-  \maketitle
-\end{frame}
-
-\begin{frame}{Introduction}
-  \begin{columns}
-    \column{0.75\textwidth}
-      \begin{itemize}
-        \item \textbf{Presenter:} Florian Prandstetter 
-        \item \textbf{Objective:} Server, VS Code Extension \& Operating Systems
-        \item \textbf{Focus:} Develop an open-source Extension for Visual Studio Code and a stable server enviorment
-      \end{itemize}
-    \column{0.25\textwidth}
-      \centering
-  \end{columns}
-\end{frame}
-
-
-
-\begin{frame}{Server}
-  \begin{itemize}
-    \item \textbf{Server Hardware:}
-    %Bild???
-      \begin{itemize}
-        \item CPU: Intel Core i5.8600k
-        \item GPU: NVIDA GeForce RTX 2060
-        \item RAM: 16GB DDR4 
-        \item Motherboard: H370 Chipset
-        \item Power Supply: 500W BeQuiet
-        \item Storage: 512GB NVMe SSDd
-      \end{itemize}
-    \item \textbf{Networking:}
-      \begin{itemize}
-        \item Axios: Used for server requests 
-        \item Tailscale: VPN tunnel used for secure remote access 
-      \end{itemize}
-    \item \textbf{Backup and Recovery:} Regular system backups have been made to avoid data loss.      
-  \end{itemize}
-\end{frame}
-
-\begin{frame}{Operating System}
-  \begin{columns}
-    \column{0.5\textwidth}
-      \begin{itemize}
-        \item \textbf{Used Operating System:} The Server is running with the Ubuntu Server Operating System. 
-        \begin{itemize}
-          \item Good basis for AI models
-          \item CUDA support
-        \end{itemize}
-      \end{itemize}
-    \column{0.5\textwidth}
-      \centering
-      \includegraphics[width=0.5\textwidth]{Ubuntu.png}
-  \end{columns}
-
-\end{frame}
-
-
-\begin{frame}{Operating System Market Share} 
-  \begin{columns}
-    \column{0.5\textwidth}
-      \textbf{For Personal Use}
-      \includegraphics[width=\textwidth]{StatCounter.png}
-    \column{0.5\textwidth}
-      \textbf{For Servers}
-      
-      \includegraphics[width=\textwidth]{ServerOSShare.png}
-  \end{columns}
-\end{frame}
-
-\begin{frame}{Server Operating System Market Volume} 
-  \begin{itemize}
-    \item Glabal Market Share: America 59,56\text{\%}
-    \item CAGR: 12,4\text{\%}
-    \item Expected to double by 2032
-    \includegraphics[width=0.8\textwidth]{Server-Market-Volume.png}
-  \end{itemize}
-\end{frame}
-
-
-\begin{frame}{Flask Service}
-  \begin{itemize}
-    \item \textbf{Restful Endpoints and Functionalities:}
-    \begin{itemize}
-      \item Chatbot 
-      \item Programming bot
-      \item Obtical Character Recognition 
-    \end{itemize}
-    \item \textbf{Deployment with Docker:}
-    \begin{itemize}
-      \item Dockerfile
-      \item Docker-Compose
-    \end{itemize}
-  \end{itemize}
-\end{frame}
-
-\begin{frame}{Flask Service}
-  \begin{itemize}
-    \item Architecture and Service Structure
-    \includegraphics[width=\textwidth]{flask_service.png}
-  \end{itemize}
-\end{frame}
-
-
-
-\begin{frame}{Visual Studio Code Extension}
-  \begin{columns}
-    \column{0.5\textwidth}
-      \begin{itemize}
-        \item \textbf{Integrated AI Chatbot}
-        \item \textbf{Technologies:}
-        \begin{itemize}
-          \item VS Code API
-          \item Type Script
-        \end{itemize}
-        \item \textbf{Server Requests:}  Are handled with Axios to create a stable connection.
-      \end{itemize}
-    \column{0.175\textwidth}
-      \centering
-      \includegraphics[width=\textwidth]{VSCode.png}
-  \end{columns}
-\end{frame}
-
-
-
-\begin{frame}{Visual Studio Code Extension}
-  \begin{columns}
-    \column{0.5\textwidth}
-      \begin{itemize}
-        \item Seperate Chat-Window
-        \item Output into file
-        \item Adjustable Color Themes
-      \end{itemize}
-    \column{0.6\textwidth}
-      \centering
-      \includegraphics[width=\textwidth]{VSCodeExtension.png}
-  \end{columns}
-\end{frame}
-
-\begin{frame}{Risks of AI \& Ethical concerns}
-  \begin{itemize}
-    \item \textbf{Transparency and Data Protection}
-    \item \textbf{Bias in training data}
-    \item \textbf{Accountability}
-    \item \textbf{Job displacement}
-  \end{itemize}
-\end{frame}
-
-\begin{frame}[plain]
-  % Background HTL logo with transparency
-  \begin{tikzpicture}[remember picture,overlay]
-    \node[opacity=0.2] at (current page.center) 
-      {\includegraphics[width=0.6\paperwidth]{HTL-logo.jpeg}};
-  \end{tikzpicture}
-  
-  \centering
-  \vspace{1cm}
-  \Huge Thank You for Your Attention!
-\end{frame}
-
-\begin{frame}[plain]
-  % Background HTL logo with transparency
-  \begin{tikzpicture}[remember picture,overlay]
-    \node[opacity=0.2] at (current page.center) 
-      {\includegraphics[width=0.6\paperwidth]{HTL-logo.jpeg}};
-  \end{tikzpicture}
-  \centering
-  \vspace{1cm}
-  \Huge Backup slides: Graphes
-\end{frame}
 
 
 \end{document}
