@@ -33,21 +33,21 @@
 \end{frame}
 
 % Slide: Introduction
+% Slide: Introduction
 \begin{frame}{Introduction}
   \begin{columns}
-    \column{0.75\textwidth}
+    \column{0.7\textwidth}
       \begin{itemize}
-        \item \textbf{Presenter:} Luna Schätzle – AI evaluation \& website
-        \item \textbf{Objective:} Develop an open-source AI platform for education
-        \item \textbf{Focus:} Evaluate various AI models for diverse applications
-        \item \textbf{Platform:} Provide students with accessible AI tools
-        \item \textbf{Motivation:} Mitigate the high resource demands of current open-source AI models
+        \item \textbf{Presenter:} Luna Schätzle 
+        \item \textbf{Objective:} Enable student access to open‑source AI tools
+        \item \textbf{Focus:} Evaluate and integrate diverse AI models for practical use
       \end{itemize}
-    \column{0.25\textwidth}
+    \column{0.3\textwidth}
       \centering
-      \includegraphics[height=4.5cm,keepaspectratio]{Luna-Schaetzle.jpg} % Ersetze "portrait.jpg" mit deinem Bilddateinamen
+      \includegraphics[height=4cm,keepaspectratio]{Luna-Schaetzle.jpg} % Replace with your portrait filename
   \end{columns}
 \end{frame}
+
 
 % Slide: Open Source Impact & Approach
 \begin{frame}{Open Source: Impact \& Approach}
@@ -87,20 +87,13 @@
 
 % Slide: Evaluation Results
 \begin{frame}{Evaluation Results}
-        \begin{itemize}
-        \item \textbf{Data Visualization:} results plotted to highlight key differences
-        \item \textbf{Performance Analysis:}
-          \begin{itemize}
-            \item slight variations in latency, accuracy, and resource consumption
-            \item Compact models often yield superior efficiency
-          \end{itemize}
-          \item \textbf{Key Insight:} Model size is unreliable for overall performance; holistic evaluation is essential.
-        \item \textbf{Integration:}
-          \begin{itemize}
-            \item Flexible, user‑driven model selection
-            \item User can select the model based on their needs
-          \end{itemize}
-      \end{itemize}
+  \begin{itemize}
+    \item \textbf{Visualization:} Plots reveal key model discrepancies
+    \item \textbf{Performance:} Slight variations in latency, and resource use
+    \item \textbf{Efficiency:} Smaller models often outperform larger ones
+    \item \textbf{Insight:} Model size alone does not predict quality
+    \item \textbf{Integration:} User-driven selection with best‑model recommendation
+  \end{itemize}
 \end{frame}
 
 
@@ -124,8 +117,9 @@
     \column{0.5\textwidth}
       \begin{itemize}
         \item Secure registration and login.
-        \item User profile management.
+        %\item User profile management.
         \item Firebase-based authentication.
+        \item User Dashboard 
       \end{itemize}
     \column{0.5\textwidth}
       \centering
@@ -186,17 +180,12 @@
       \begin{itemize}
         \item Customer service \& support
         \item Supply chain management
-        \item Predictive analytics
-        \item Data analysis
+        \item Predictive \& Data analysis
         \item Process automation
       \end{itemize}
     \column{0.5\textwidth}
-      \textbf{Ethical \& Social Concerns:}
-      \begin{itemize}
-        \item Bias in training data
-        \item workflow changes
-        \item Privacy and data protection
-      \end{itemize}
+    \centering
+    \includegraphics[width=\textwidth]{Customer-Support.png}
   \end{columns}
 \end{frame}
 
@@ -244,7 +233,28 @@
 \begin{frame}{Evaluation Results: Qualitative metrics}
   \begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{combined_metrics.png}
+    \begin{minipage}{0.45\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{bleu_rouge.png}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{grammar_errors.png}
+    \end{minipage}
+    
+    \vspace{0.15cm}
+    
+    \begin{minipage}{0.45\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{readability.png}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{sentiment.png}
+    \end{minipage}
+    
     \caption{Evaluation Results of AI Models}
     \label{fig:evaluation-results}
   \end{figure}
@@ -267,6 +277,15 @@
         \label{fig:memory-usage}
       \end{figure}
   \end{columns}
+\end{frame}
+
+\begin{frame}
+  \begin{figure}
+    \centering
+    \caption{response time comparison of different models}
+    \label{fig:latency-comparison}
+    \includegraphics[width=0.8\textwidth, height=7cm, keepaspectratio]{model_response_times_comparison.png}
+  \end{figure}
 \end{frame}
 
 
@@ -418,6 +437,12 @@
     \item \textbf{Transparency}
     \item \textbf{Accountability}
     \item \textbf{Job displacement}
+    \textbf{Ethical \& Social Concerns:}
+    \begin{itemize}
+      \item Bias in training data
+      \item workflow changes
+      \item Privacy and data protection
+    \end{itemize}
   \end{itemize}
 
 
