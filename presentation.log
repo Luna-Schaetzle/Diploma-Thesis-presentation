@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  22 APR 2025 12:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.23)  23 APR 2025 02:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1056,20 +1056,20 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 33.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
 /enc/dvips/lm/lm-rm.enc} <./HTL-logo.jpeg>]
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-48.
+46.
 
 (/usr/share/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 48.
+(Font)              <10.95> on input line 46.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 48.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 46.
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 48.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 46.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [2
 
@@ -1077,7 +1077,7 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 48.
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 71.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 66.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [3
 
@@ -1085,13 +1085,13 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 71.
 <Ubuntu.png, id=34, 1027.84pt x 1027.84pt>
 File: Ubuntu.png Graphic file (type png)
 <use Ubuntu.png>
-Package pdftex.def Info: Ubuntu.png  used on input line 88.
+Package pdftex.def Info: Ubuntu.png  used on input line 82.
 (pdftex.def)             Requested size: 76.82246pt x 76.81805pt.
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 88.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 82.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [4
 
@@ -1099,18 +1099,18 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 88.
 <StatCounter.png, id=42, 963.6pt x 542.025pt>
 File: StatCounter.png Graphic file (type png)
 <use StatCounter.png>
-Package pdftex.def Info: StatCounter.png  used on input line 101.
+Package pdftex.def Info: StatCounter.png  used on input line 94.
 (pdftex.def)             Requested size: 153.64493pt x 86.41975pt.
 <ServerOSShare.png, id=43, 625.33624pt x 311.1625pt>
 File: ServerOSShare.png Graphic file (type png)
 <use ServerOSShare.png>
-Package pdftex.def Info: ServerOSShare.png  used on input line 101.
+Package pdftex.def Info: ServerOSShare.png  used on input line 94.
 (pdftex.def)             Requested size: 153.64493pt x 76.4515pt.
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 101.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 94.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [5
 
@@ -1118,13 +1118,13 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 101.
 <Server-Market-Volume.png, id=51, 1250.6725pt x 622.325pt>
 File: Server-Market-Volume.png Graphic file (type png)
 <use Server-Market-Volume.png>
-Package pdftex.def Info: Server-Market-Volume.png  used on input line 110.
+Package pdftex.def Info: Server-Market-Volume.png  used on input line 103.
 (pdftex.def)             Requested size: 245.83282pt x 122.31671pt.
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 110.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 103.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [6
 
@@ -1132,7 +1132,7 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 110.
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 127.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 119.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [7
 
@@ -1140,22 +1140,22 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 127.
 <flask_service.png, id=64, 9761.46875pt x 6787.3575pt>
 File: flask_service.png Graphic file (type png)
 <use flask_service.png>
-Package pdftex.def Info: flask_service.png  used on input line 134.
+Package pdftex.def Info: flask_service.png  used on input line 126.
 (pdftex.def)             Requested size: 307.28987pt x 213.6579pt.
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 134--134
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 126--126
 []  
  []
 
 
-Overfull \vbox (18.55165pt too high) detected at line 134
+Overfull \vbox (18.55165pt too high) detected at line 126
  []
 
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 134.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 126.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [8
 
@@ -1163,13 +1163,13 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 134.
 <VSCode.png, id=71, 803.0pt x 803.0pt>
 File: VSCode.png Graphic file (type png)
 <use VSCode.png>
-Package pdftex.def Info: VSCode.png  used on input line 154.
+Package pdftex.def Info: VSCode.png  used on input line 144.
 (pdftex.def)             Requested size: 53.77666pt x 53.76518pt.
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 154.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 144.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [9
 
@@ -1177,13 +1177,13 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 154.
 <VSCodeExtension.png, id=78, 1927.2pt x 1084.05pt>
 File: VSCodeExtension.png Graphic file (type png)
 <use VSCodeExtension.png>
-Package pdftex.def Info: VSCodeExtension.png  used on input line 170.
+Package pdftex.def Info: VSCodeExtension.png  used on input line 158.
 (pdftex.def)             Requested size: 184.3758pt x 103.69708pt.
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 170.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 158.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [10
 
@@ -1191,14 +1191,14 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 170.
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 179.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 167.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [11
 
 ]
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 191.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 178.
 (pdftex.def)             Requested size: 218.51942pt x 218.51797pt.
 
 
@@ -1207,21 +1207,21 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 191.
 ]
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 202.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 188.
 (pdftex.def)             Requested size: 218.51942pt x 218.51797pt.
 
 
 [13
 
 ]
-Overfull \vbox (44.55624pt too high) detected at line 209
+Overfull \vbox (44.55624pt too high) detected at line 193
  []
 
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 209.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 193.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [14
 
@@ -1229,13 +1229,13 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 209.
 <Luna-Schaetzle.jpg, id=106, 2083.785pt x 3131.7pt>
 File: Luna-Schaetzle.jpg Graphic file (type jpg)
 <use Luna-Schaetzle.jpg>
-Package pdftex.def Info: Luna-Schaetzle.jpg  used on input line 225.
+Package pdftex.def Info: Luna-Schaetzle.jpg  used on input line 208.
 (pdftex.def)             Requested size: 75.70618pt x 113.81102pt.
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 225.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 208.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [15
 
@@ -1243,13 +1243,13 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 225.
 <Open-Source.png, id=112, 501.875pt x 658.46pt>
 File: Open-Source.png Graphic file (type png)
 <use Open-Source.png>
-Package pdftex.def Info: Open-Source.png  used on input line 243.
+Package pdftex.def Info: Open-Source.png  used on input line 225.
 (pdftex.def)             Requested size: 61.45703pt x 80.6294pt.
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 243.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 225.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [16
 
@@ -1257,7 +1257,7 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 243.
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 262.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 240.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [17
 
@@ -1265,7 +1265,7 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 262.
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 273.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 251.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [18
 
@@ -1273,13 +1273,13 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 273.
 <homepage-screenshot.png, id=129, 1661.20625pt x 1096.095pt>
 File: homepage-screenshot.png Graphic file (type png)
 <use homepage-screenshot.png>
-Package pdftex.def Info: homepage-screenshot.png  used on input line 288.
+Package pdftex.def Info: homepage-screenshot.png  used on input line 265.
 (pdftex.def)             Requested size: 153.64493pt x 101.37047pt.
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 288.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 265.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [19
 
@@ -1287,13 +1287,13 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 288.
 <Account-Managment.png, id=137, 1108.14pt x 645.41125pt>
 File: Account-Managment.png Graphic file (type png)
 <use Account-Managment.png>
-Package pdftex.def Info: Account-Managment.png  used on input line 304.
+Package pdftex.def Info: Account-Managment.png  used on input line 280.
 (pdftex.def)             Requested size: 153.64493pt x 89.48047pt.
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 304.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 280.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [20
 
@@ -1301,13 +1301,13 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 304.
 <Chat-Bot-Navigation-Bar.png, id=144, 1268.74pt x 508.90125pt>
 File: Chat-Bot-Navigation-Bar.png Graphic file (type png)
 <use Chat-Bot-Navigation-Bar.png>
-Package pdftex.def Info: Chat-Bot-Navigation-Bar.png  used on input line 320.
+Package pdftex.def Info: Chat-Bot-Navigation-Bar.png  used on input line 296.
 (pdftex.def)             Requested size: 199.73653pt x 80.11354pt.
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 320.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 296.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [21
 
@@ -1315,13 +1315,13 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 320.
 <image-generation.png, id=151, 821.0675pt x 1040.88875pt>
 File: image-generation.png Graphic file (type png)
 <use image-generation.png>
-Package pdftex.def Info: image-generation.png  used on input line 334.
+Package pdftex.def Info: image-generation.png  used on input line 310.
 (pdftex.def)             Requested size: 122.91406pt x 155.80891pt.
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 334.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 310.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [22
 
@@ -1329,13 +1329,13 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 334.
 <OCR-functonalatie.png, id=158, 969.6225pt x 854.19125pt>
 File: OCR-functonalatie.png Graphic file (type png)
 <use OCR-functonalatie.png>
-Package pdftex.def Info: OCR-functonalatie.png  used on input line 349.
+Package pdftex.def Info: OCR-functonalatie.png  used on input line 325.
 (pdftex.def)             Requested size: 122.91406pt x 108.27254pt.
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 349.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 325.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [23
 
@@ -1343,13 +1343,13 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 349.
 <Customer-Support.png, id=165, 2569.6pt x 1713.40125pt>
 File: Customer-Support.png Graphic file (type png)
 <use Customer-Support.png>
-Package pdftex.def Info: Customer-Support.png  used on input line 366.
+Package pdftex.def Info: Customer-Support.png  used on input line 342.
 (pdftex.def)             Requested size: 153.64493pt x 102.43361pt.
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 366.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 342.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [24
 
@@ -1357,20 +1357,20 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 366.
 <EU-AI-Regulation.png, id=171, 1027.84pt x 578.16pt>
 File: EU-AI-Regulation.png Graphic file (type png)
 <use EU-AI-Regulation.png>
-Package pdftex.def Info: EU-AI-Regulation.png  used on input line 382.
+Package pdftex.def Info: EU-AI-Regulation.png  used on input line 357.
 (pdftex.def)             Requested size: 138.2795pt x 77.77475pt.
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 382.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 357.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [25
 
  <./EU-AI-Regulation.png (PNG copy)>]
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 392.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 367.
 (pdftex.def)             Requested size: 153.64493pt x 153.64394pt.
 
 
@@ -1379,7 +1379,7 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 392.
 ]
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 405.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 377.
 (pdftex.def)             Requested size: 218.51942pt x 218.51797pt.
 
 
@@ -1389,32 +1389,32 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 405.
 <bleu_rouge.png, id=189, 1002.3849pt x 495.0495pt>
 File: bleu_rouge.png Graphic file (type png)
 <use bleu_rouge.png>
-Package pdftex.def Info: bleu_rouge.png  used on input line 437.
+Package pdftex.def Info: bleu_rouge.png  used on input line 408.
 (pdftex.def)             Requested size: 138.2795pt x 68.28668pt.
 <grammar_errors.png, id=190, 857.604pt x 422.7795pt>
 File: grammar_errors.png Graphic file (type png)
 <use grammar_errors.png>
-Package pdftex.def Info: grammar_errors.png  used on input line 437.
+Package pdftex.def Info: grammar_errors.png  used on input line 408.
 (pdftex.def)             Requested size: 138.2795pt x 68.16862pt.
 <readability.png, id=191, 857.604pt x 422.7795pt>
 File: readability.png Graphic file (type png)
 <use readability.png>
-Package pdftex.def Info: readability.png  used on input line 437.
+Package pdftex.def Info: readability.png  used on input line 408.
 (pdftex.def)             Requested size: 138.2795pt x 68.16862pt.
 <sentiment.png, id=192, 449.2785pt x 336.0555pt>
 File: sentiment.png Graphic file (type png)
 <use sentiment.png>
-Package pdftex.def Info: sentiment.png  used on input line 437.
+Package pdftex.def Info: sentiment.png  used on input line 408.
 (pdftex.def)             Requested size: 138.2795pt x 103.43259pt.
 
-Overfull \vbox (2.60477pt too high) detected at line 437
+Overfull \vbox (2.60477pt too high) detected at line 408
  []
 
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 437.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 408.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [28
 
@@ -1423,20 +1423,20 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 437.
 <model_cpu_usage_comparison.png, id=203, 715.473pt x 297.2706pt>
 File: model_cpu_usage_comparison.png Graphic file (type png)
 <use model_cpu_usage_comparison.png>
-Package pdftex.def Info: model_cpu_usage_comparison.png  used on input line 456
+Package pdftex.def Info: model_cpu_usage_comparison.png  used on input line 427
 .
 (pdftex.def)             Requested size: 138.2795pt x 57.4527pt.
 <model_memory_usage_comparison.png, id=204, 714.9912pt x 397.0032pt>
 File: model_memory_usage_comparison.png Graphic file (type png)
 <use model_memory_usage_comparison.png>
 Package pdftex.def Info: model_memory_usage_comparison.png  used on input line 
-456.
+427.
 (pdftex.def)             Requested size: 138.2795pt x 76.77621pt.
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 456.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 427.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [29
 
@@ -1445,13 +1445,13 @@ Package pdftex.def Info: HTL-logo.jpeg  used on input line 456.
 File: model_response_times_comparison.png Graphic file (type png)
 <use model_response_times_comparison.png>
 Package pdftex.def Info: model_response_times_comparison.png  used on input lin
-e 465.
+e 436.
 (pdftex.def)             Requested size: 158.928pt x 199.16293pt.
 
 
 File: HTL-logo.jpeg Graphic file (type jpg)
 <use HTL-logo.jpeg>
-Package pdftex.def Info: HTL-logo.jpeg  used on input line 465.
+Package pdftex.def Info: HTL-logo.jpeg  used on input line 436.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [30
 
@@ -1480,7 +1480,7 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 Here is how much of TeX's memory you used:
  25540 strings out of 475171
  509209 string characters out of 5767095
- 858211 words of memory out of 5000000
+ 858210 words of memory out of 5000000
  47943 multiletter control sequences out of 15000+600000
  611092 words of font info for 74 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1488,7 +1488,7 @@ Here is how much of TeX's memory you used:
 </usr/share/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf-dis
 t/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf-dist/fonts/type1/public/lm
 /lmss8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on presentation.pdf (30 pages, 13959398 bytes).
+Output written on presentation.pdf (30 pages, 13959397 bytes).
 PDF statistics:
  260 PDF objects out of 1000 (max. 8388607)
  168 compressed objects within 2 object streams
